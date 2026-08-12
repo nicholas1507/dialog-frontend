@@ -1,0 +1,35 @@
+/* Sidebar.css */
+.sidebar {
+  width: 230px !important;
+  --cui-sidebar-width: 230px !important;
+}
+.app-sidebar {
+  width: 230px !important;
+}
+.sidebar-nav-link {
+  display: flex;
+  align-items: center;
+  padding: 10px 16px;
+  margin: 2px 8px;
+  border-radius: 8px;
+  color: #495057;
+  font-weight: 500;
+  text-decoration: none;
+  transition: background 0.15s;
+}
+
+.sidebar-nav-link:hover {
+  background: #f5f5f5;
+}
+
+.sidebar-nav-link.active {
+  background: #eff6ff; /* soft blue */
+  color: #3b82f6;
+  border-left: 3px solid #3b82f6;
+  padding-left: 13px;
+}
+.sidebar-icon {
+  margin-right: 10px;
+  font-size: 18px;
+}
+/* Sidebar.css */
